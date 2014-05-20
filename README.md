@@ -8,3 +8,5 @@ The idea behind this small program is to compare the two knowledge bases in orde
 Currently, the application just create two TSV files listing the IsA relationships present in conceptnet between lemmas present also in Wordnet, one for relationshisp present also in Wordnet, the other one for the absent ones.
 
 For each hyponym-hypernym couple a natural language description is given when present in conceptnet.
+
+To compile the program run `mvn clean install`, you will also need the raw json dump of Conceptnet (conceptnet5_flat_json)
